@@ -1,0 +1,69 @@
+
+
+body {
+	background-image: url("wallpaper.jpg") ;
+ 	background-size: contain;
+ 	background-attachment: fixed;
+ 	width: 100vw;
+
+ 	display: flex;
+ 	justify-content: center;
+
+}
+
+#titulo:hover{
+	font-size: 40px;
+	color: #7f5200 ;
+	cursor: pointer;
+}
+
+#titulo{	
+
+}
+header{
+	position: absolute;
+}
+
+section{
+	display: flex;
+ 	justify-content: center;
+ 	flex-direction: column;
+ 	width: 70vw;
+ 	background: #f1d0b3;
+
+ 	font-size: 20px;
+}
+
+#marte {
+	
+	width:  100%;
+}
+
+
+.principal{
+	display: flex;
+ 	justify-content: center;
+	padding-left: 8em;
+    padding-right: 8em;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+.titulo-princial {
+	padding-left: 20px;
+}
+
+.titulo-centralizado {
+	text-align: center
+}
+
+p {
+	text-align: left;
+}
+
+em strong {
+	color: #FF0000;
+}
+

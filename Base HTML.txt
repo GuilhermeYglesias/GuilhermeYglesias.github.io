@@ -1,0 +1,88 @@
+Tags - HTML CSS
+
+Exemplo: <tag>. Fechar tag - </tag>.
+
+Primeiro título da página: <h1>. Fechar tag - </h1>.
+
+Parágrafo de texto: <p>. Fechar tag - </h1>.
+
+Itálico: <em>. Fechar tag - </em>.
+
+Negrito: <strong>. Fechar tag - </strong>.
+
+Versão do HTML - <!DOCTYPE html>; Após essa tag - <html>; Final da página </html>.
+
+Usar dentro da tag <html>, para entender português e traduzir - lang="pt-br"
+
+Todos os caracteres usadas na maioria das línguas (mais comuns) - <meta charset="UTF-8">
+
+Mudar título da página - <title>. Fechar tag </title>.
+
+Informações para passar pro navegador - <head>
+
+Informações para exibir na página - <body>
+
+Tamanho da fonte em pixels, exemplo: <p style="font-size: 20px">
+
+Centralizar título - <h1 style="text-align: center">
+
+Centralizar todos os parágrafos - p {text-align: center}
+
+Mesmo CSS em várias páginas - <link rel="stylesheet" href="style.css"
+
+Definição do background CINZA - background:#CCCCCC 
+
+Definição da cor do "corpo" todo - body {
+	background:#CCCCCC
+}
+
+Definição do elemento - color: red; (Exemplo)
+
+Adicionar uma imagem e dar a descrição dela - <img src ="endereço">
+
+Como ajustar a altura do elemento - height
+
+Como ajustar a largura do elemento - width
+
+Como ajustar o espaçamento interno do elemento - padding
+
+Como ajustar o espaçamento externo do elemento - margin (left or right)
+
+Lista não ordenada (tag para lista) - <ul> ; </ul>
+
+Marcar cada um dos itens da lista - <li> ; </li>
+
+Marcação para alguma classe no CSS - .exemplo
+
+Replicar a aplicação no CSS sem precisar copiar e colá-lo em vários elementos - class
+
+Frequentemente usado como contêiner para outros elementos; Facilita na estilização de blocos (divisões de conteúdo) - <div>  ; </div>
+
+A tag header é uma tag de conteúdo do HTML, e não uma tag de estrutura. Não confunda head com header.
+
+FLEXBOX: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+BACKGROUND: https://www.w3schools.com/cssref/css3_pr_background.asp
+
+O que usar no início do site - <!DOCTYPE html>
+			<html>
+			      <head>
+			            <meta charset "UTF-8">
+			            <title> EXEMPLO - EXEMPLO </title>
+                              		            <link rel="stylesheet"  href="exemplo.css">
+			      </head>
+			      <body>
+		                            <header>
+			            <h1><img src=exemplo.png"></h1>
+				
+			            <ul>
+			              <li> <a>EXEMPLO</a> </li>
+				
+			            </ul>
+			             
+ 			            </header>
+			            </body>	
+			</html>
+Tag <a>;</a>  - Link para algum lugar.
+
+Deixar em maiúsculo no CSS - text-transform: uppercase;

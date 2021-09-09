@@ -1,0 +1,66 @@
+header {
+	background: #C5C4CC;
+	padding: 20px 0;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+	margin-left: 0;
+}
+
+nav {
+	position: absolute;
+	top: 125px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #000000;
+	font-size: 20px;
+	text-decoration: underline;
+	font-family: 'Roboto', Verdana, sans-serif;
+}
+
+.foguetes {
+	width: 1000px;
+	margin: 0 auto;
+	padding: 50px 0;
+	padding-right: 500px;
+}
+
+.foguetes li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	font-family: 'Glory', sans-serif;
+}
+
+.foguetes h2 {
+	font-size: 30px;
+	font-weight: bold;
+	font-style: italic;
+	color: #BDC1C5;
+}
+
+.foguetes li img {
+	padding-bottom: 30px;
+}
+
+main {
+	background-image: url("starshipmoon.png");
+	background-size: cover;
+	height: 815px;
+}
+
+.foguetes li p {
+	color: #BDC1C5;
+}
