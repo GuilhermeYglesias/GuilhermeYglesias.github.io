@@ -1,5 +1,5 @@
 header {
-	background: #C5C4CC;
+	background: #000200;
 	padding: 20px 0;
 }
 
@@ -23,11 +23,17 @@ nav li {
 
 nav a {
 	text-transform: uppercase;
-	color: #000000;
+	color: #FFFFFF;
 	font-size: 20px;
-	text-decoration: underline;
+	text-decoration: none;
 	font-family: 'Roboto', Verdana, sans-serif;
 }
+
+nav a:hover {
+	color: #03397B;
+	text-decoration: underline;
+}
+
 
 .foguetes {
 	width: 1000px;
@@ -42,13 +48,30 @@ nav a {
 	width: 30%;
 	vertical-align: top;
 	font-family: 'Glory', sans-serif;
+	margin: 0 0.33%;
+	border: 2px solid #7B7D7D;
+	border-radius: 10px;
+}
+
+.foguetes li:hover {
+	border-color: #03397B;
+	font-size: 1.09em;
+}
+
+.foguetes li:active {
+	border-color: #b2b2b2;
+}
+
+.foguetes li:hover h2 {
+	font-size: 35px
 }
 
 .foguetes h2 {
 	font-size: 30px;
 	font-weight: bold;
 	font-style: italic;
-	color: #BDC1C5;
+	color: #D5D8DC;
+	margin-top: 10px;
 }
 
 .foguetes li img {
@@ -63,4 +86,11 @@ main {
 
 .foguetes li p {
 	color: #BDC1C5;
+	text-align: left;
+}
+
+.caixa h1 img {
+	padding-bottom: 102px;
+	padding-top: 102px;
+	padding-left: 22px;
 }
