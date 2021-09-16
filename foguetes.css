@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 main {
-	background-image: url("");
+	background-image: url("starshipmoon.png");
 	background-size: cover;
 	height: 815px;
 }
@@ -105,24 +105,3 @@ footer {
 	padding: 14px 0;
 }
 
-main {
-	width: 940px;
-	margin: 0 auto;
-}
-
-form {
-	margin: 40px 0;
-}
-
-form label {
-	display: block;
-	font-size: 18px;
-	margin: 0 0 10px;
-}
-
-form input {
-	display: block;
-	margin: 0 0 20px;
-	padding: 5px 9px;
-	width: 35%;
-}
