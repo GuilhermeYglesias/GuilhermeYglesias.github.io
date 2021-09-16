@@ -79,7 +79,7 @@ nav a:hover {
 }
 
 main {
-	background-image: url("starshipmoon.png");
+	background-image: url("");
 	background-size: cover;
 	height: 815px;
 }
@@ -87,10 +87,42 @@ main {
 .foguetes li p {
 	color: #BDC1C5;
 	text-align: left;
+	letter-spacing: 1.6px;
+	line-height: 21px;
 }
 
 .caixa h1 img {
 	padding-bottom: 102px;
 	padding-top: 102px;
 	padding-left: 22px;
+}
+
+footer {
+	text-align: center;
+	background: url(background.jpg);
+	color: #FFFFFF;
+	font-size: 13px;
+	padding: 14px 0;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label {
+	display: block;
+	font-size: 18px;
+	margin: 0 0 10px;
+}
+
+form input {
+	display: block;
+	margin: 0 0 20px;
+	padding: 5px 9px;
+	width: 35%;
 }

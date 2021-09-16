@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Foguetes - Gui Airlines</title>
+
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="foguetes.css">
+	</head>
+	<body>
+		<header>
+			<div class="caixa">
+			<h1><img src="logo.png" height="45px" width="425px"></h1>
+
+			<nav>	
+				<ul>
+					<li><a href="guiairlines.html">Projeto Marte</a></li>
+					<li><a href="index.html">Foguetes</a></li>
+					<li><a href="https://www.spacex.com">Spacex</a></li>
+				</ul>
+			</nav>
+		   </div>
+		</header>
+
+		<main>
+			<form>
+				<label for="nomesobrenome">Nome e Sobrenome</label>
+				<input type="text" id="nomesobrenome">
+
+				<label for="email">Email</label>
+				<input type="text" id="email">
+
+				<label for="telefone">Telefone</label>
+				<input type="text" id="telefone">
+
+				<label for="mensagem">Mensagem</label>
+				<textarea cols="70" rows="10" id="mensagem"></textarea>
+
+				<div>
+					<p>Como prefere receber as atualizações?</p>
+
+					<label for="radio-email">Email</label>
+					<input type="radio" name="contato" value="email" id="radio-email">
+
+					<label for="radio-telefone">Telefone</label>
+					<input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+					<label for="radio-whatsapp">WhatsApp</label>
+					<input type="radio" name="contato" value="whatsapp" id="radio-whatsapp">
+				</div>
+
+				<label><input type="checkbox"> Gostaria de receber novidades por email?</label>
+
+				<input type="submit" value="Enviar formulário">
+		</main>
+
+		<footer>
+			<p>&copy; Copyright Gui Airlines - 2021
+		</footer>
+	</body>
+</html>

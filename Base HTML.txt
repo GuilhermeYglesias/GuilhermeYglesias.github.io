@@ -86,3 +86,10 @@ O que usar no início do site - <!DOCTYPE html>
 Tag <a>;</a>  - Link para algum lugar.
 
 Deixar em maiúsculo no CSS - text-transform: uppercase;
+
+Tag do formulário - <form>; </form>
+
+Dentro do formulário - <input type="text">
+
+
+

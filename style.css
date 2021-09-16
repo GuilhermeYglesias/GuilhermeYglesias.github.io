@@ -53,6 +53,8 @@ section{
 
 .titulo-princial {
 	padding-left: 20px;
+	text-decoration: underline;
+	color: #101010;
 }
 
 .titulo-centralizado {
@@ -67,3 +69,6 @@ em strong {
 	color: #FF0000;
 }
 
+main {
+	width: ;
+}
